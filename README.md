@@ -1,4 +1,4 @@
-# Loop Agents – Reflexivity Scenario Harness
+# ➿ Loop Agents – Reflexivity Scenario Harness
 Dual report generator for context and topic-driven LLM guided scenario narratives.
 
 Small, modular Python tool that runs two LLM agents reasoning in opposite feedback directions (NEG vs POS), then produces three outcomes: negative, neutralized, positive. Includes knobs for horizon, weighting, dampening, compounding, and independent (non‑reflexive) comparators.
