@@ -1,0 +1,72 @@
+{
+  "topic": "Enron-like patterns",
+  "context": "Company X 10-Q anomalies; auditor churn",
+  "outcomes": {
+    "negative": {
+      "thesis": "reflexive negative thesis under 'Enron-like patterns'.",
+      "drivers": [
+        "accounting ambiguity",
+        "regulatory chatter",
+        "governance flags"
+      ],
+      "risks": [
+        "auditor turnover",
+        "working-capital strain",
+        "regulatory intervention window"
+      ],
+      "price_path_week": [
+        -3.0,
+        -2.0,
+        -1.0,
+        -0.5,
+        -0.2
+      ],
+      "confidence": 0.6
+    },
+    "positive": {
+      "thesis": "reflexive positive thesis under 'Enron-like patterns'.",
+      "drivers": [
+        "auditor turnover",
+        "working-capital strain",
+        "regulatory chatter"
+      ],
+      "risks": [
+        "governance flags",
+        "accounting ambiguity",
+        "forensic accounting exposure"
+      ],
+      "price_path_week": [
+        2.0,
+        1.5,
+        1.0,
+        0.5,
+        0.2
+      ],
+      "confidence": 0.65
+    },
+    "neutralized": {
+      "thesis": "Bearish stress meets bullish rescue; credit conditions and timing frictions dampen both loops, yielding a muted, path-dependent outcome.",
+      "drivers": [
+        "accounting ambiguity",
+        "regulatory chatter",
+        "auditor turnover"
+      ],
+      "risks": [
+        "working-capital strain",
+        "governance flags"
+      ],
+      "price_path_week": [
+        -0.4,
+        -0.24,
+        -0.08,
+        -0.04,
+        0.0
+      ],
+      "confidence": 0.62
+    }
+  },
+  "meta": {
+    "mode": "mock",
+    "timestamp": "2025-09-04T01:58:03.272401+00:00"
+  }
+}

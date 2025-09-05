@@ -1,0 +1,112 @@
+{
+  "topic": "Central bank low interest rate policy",
+  "context": "Compressed volatility; high social unrest.",
+  "outcomes": {
+    "negative": {
+      "thesis": "reflexive negative thesis under 'Central bank low interest rate policy'.",
+      "drivers": [
+        "signal-1",
+        "signal-2",
+        "signal-3"
+      ],
+      "risks": [
+        "signal-3",
+        "signal-4",
+        "signal-5"
+      ],
+      "price_path_week": [
+        -3.0,
+        -2.0,
+        -1.0,
+        -0.5,
+        -0.2
+      ],
+      "confidence": 0.6
+    },
+    "positive": {
+      "thesis": "reflexive positive thesis under 'Central bank low interest rate policy'.",
+      "drivers": [
+        "signal-1",
+        "signal-2",
+        "signal-3"
+      ],
+      "risks": [
+        "signal-3",
+        "signal-4",
+        "signal-5"
+      ],
+      "price_path_week": [
+        2.0,
+        1.5,
+        1.0,
+        0.5,
+        0.2
+      ],
+      "confidence": 0.65
+    },
+    "neutralized": {
+      "thesis": "Bearish stress meets bullish rescue; credit conditions and timing frictions dampen both loops, yielding a muted, path-dependent outcome.",
+      "drivers": [
+        "signal-1",
+        "signal-2",
+        "dampened feedback"
+      ],
+      "risks": [
+        "signal-3",
+        "signal-4",
+        "liquidity squeeze"
+      ],
+      "price_path_week": [
+        -0.22,
+        -0.17,
+        -0.11,
+        -0.05,
+        0.0
+      ],
+      "confidence": 0.62,
+      "band": {
+        "upper": [
+          0.38,
+          0.42,
+          0.48,
+          0.54,
+          0.59
+        ],
+        "lower": [
+          -0.81,
+          -0.77,
+          -0.7,
+          -0.65,
+          -0.59
+        ]
+      }
+    }
+  },
+  "meta": {
+    "mode": "live",
+    "timestamp": "2025-09-05T05:12:17.906551+00:00",
+    "horizon": 5,
+    "unit": "days",
+    "path_mode": "linear",
+    "interaction_area": {
+      "neg": 10.3,
+      "pos": 6.8
+    }
+  },
+  "comparators": {
+    "neg_independent": [
+      -3.0,
+      -3.2,
+      -3.4,
+      -3.6,
+      -3.8
+    ],
+    "pos_independent": [
+      2.0,
+      2.2,
+      2.4,
+      2.6,
+      2.8
+    ]
+  }
+}
